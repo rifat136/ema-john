@@ -1,0 +1,14 @@
+.cart{
+padding: 25px;
+margin-top: 50px;
+border-radius: 10px;
+background-color:rgb(235, 167, 167);
+color: black;
+font-weight: 400px;
+position: sticky;
+top: 0;
+}
+
+.cart p{
+    font-size: 17px;
+}
