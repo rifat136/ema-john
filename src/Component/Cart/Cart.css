@@ -1,14 +1,30 @@
-.cart{
-padding: 25px;
-margin-top: 50px;
-border-radius: 10px;
-background-color:rgb(235, 167, 167);
-color: black;
-font-weight: 400px;
-position: sticky;
-top: 0;
+.cart {
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(235, 167, 167);
+    color: black;
+    font-weight: 400px;
+    position: sticky;
+    top: 0;
 }
 
-.cart p{
+.cart p {
     font-size: 17px;
+}
+
+.btn-clear-cart {
+    width: 90%;
+    margin: 20px auto;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-clear-cart:hover {
+    background-color: darkcyan;
 }
