@@ -11,11 +11,12 @@ let quantity=0;
 
 
     for(const product of cart){
+        
         if(product.quantity===0){
             product.quantity= 1; 
             //by deafult ) thakle 1 kore dite hoy nahole price zero asbe
         }
-        total= total+product.price * product.quantity;
+        total= total+ product.price * product.quantity;
         shipping= shipping+ product.shipping;
         quantity= quantity + product.quantity;
     }
